@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*
+{
+ padding: 0;
+ margin: 0;
+}
+body
+{
+ background-color: rgb(179, 211, 199);
+}
+
+.header
+{
+ position: absolute;
+ top: 0;
+
+background-color: rgba(46, 120, 139,0.8);
+ left: 0;
+ z-index: 2px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ right: 0;
+ bottom: 0;
+ width: 100%;
+ height: 15%;
+
+}
+
+.header img
+{
+ margin: 10px;
+ border-radius: 50%;
+ width: 60px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ height: 60px;
+}
+
+.header button
+{
+ position: relative;
+float: right;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ padding: 10px;
+ border-radius: 20px;
+ margin: 10px;
+ top: 10px;
+ left: -30px;
+ width:80px;
+ transition: all 0.1s ease-in;
+ border: none;
+}
+
+.header .modal
+{
+ position: relative;
+float: right;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ padding: 10px;
+ border-radius: 20px;
+ margin: 10px;
+ top: 10px;
+ z-index: 10px;
+ border: 3px black dotted;
+ left: -30px;
+ height: 30px;
+ width:550px;
+ top: -20px;
+ transition: all 0.1s ease-in;
+ 
+}
+
+.header button:hover
+{
+ transform: scale(1.1);
+}
+
+
+#hb
+{
+ background-color: rgb(105, 204, 121);
+}
+
+#cb
+{
+ background-color: rgb(112, 163, 240);
+}
+
+.head2
+{
+ position: absolute;
+top: 75px;
+ left: 0;
+ right: 0;
+ bottom: 0;
+
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ background-color: rgba(0, 0, 0, 0.35)
+}
+
+.head2 video
+{
+ position: relative;
+ width: 100%;
+ left: -10rem;
+
+ height: 100%;
+
+}
+
+
+video
+{
+ position: absolute;
+ top: 0;
+ z-index: -10;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+ width: 100%;
+
+}
+
+.head2 h1
+{
+ position: absolute;
+ font-family: 'Nova Square', cursive;
+ top: 140px;
+ animation: forh1 2s infinite;
+ transition: all 2 ease-in;
+ width: inherit;
+ z-index: 10;
+ overflow: hidden;
+text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+ font-size: 150px;
+ left: 25rem;
+ 
+}
+
+.head2 h2
+{
+ position: absolute;
+ font-family: 'Nova Square', cursive;
+ top: 280px;
+ animation: forh2 1.5s infinite;
+ transition: all 1s ease-in;
+
+ width: inherit;
+ z-index: 10;
+ overflow: hidden;
+text-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+
+
+ font-size: 15vmin;
+ color: rgb(165, 165, 165);
+ left: 40rem;
+ 
+}
+
+@keyframes forh1
+{
+ 0%
+ {
+color: seagreen;
+ }
+ 50%
+ {
+  color: tomato;
+ }
+ 100%
+ {
+  color: white;
+ }
+
+}
+
+@keyframes forh2
+{
+ 0%
+ {
+  top: 280px;
+ }
+ 50%
+ {
+  top: 290px;
+ }
+ 100%
+ {
+  top: 280px;
+ }
+
+}
+
+#mobilemenu
+{
+display: none;
+}
+
+.hide
+{
+ display: none;
+}
+
+
+.projects
+{
+ display: grid;
+
+ grid-template-columns: auto auto auto auto;
+}
+
+.project
+{
+ position: relative;
+ height: 200px;
+ border-radius: 20px;
+ width: 332px;
+
+ top: 50rem;
+ background-color: rgb(139, 136, 136);
+
+
+}
+
+.pheader
+{
+ position: relative;
+ top: 45rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border-bottom: 2px red double ;
+ left: 45%;
+ width: 180px
+}
+
+.pheader1
+{
+ position: relative;
+ top: 55rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border-bottom: 2px red double ;
+ left: 45%;
+ width: 240px
+}
+
+
+.pheader:hover
+{
+ transform: scale(1.1);
+}
+
+
+.project:hover
+{
+ transform: scale(1.1);
+}
+.project img
+{
+ position: relative;
+ box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+border-radius: 20px;
+ width: inherit;
+ height: inherit;
+}
+
+.contact{
+
+ position:absolute;
+ top:140rem;
+ left: 50px;
+ bottom: 0;
+ right: 0;
+ border-radius: 20px;
+ height: 50%;
+ width: 50%;
+ margin: auto;
+ text-align: center;
+ background-color: rgb(151, 148, 148);
+ z-index: 15;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+.contact h2
+{
+ font-family: 'Nova Square', cursive;
+
+}
+
+.contact h3
+{
+ position: relative;
+  width: 100px;
+  color: white;
+  font-family: 'Nova Square', cursive;
+
+  left: 40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+ background-color: rgba(0, 0, 0, 0.6);
+}
+
+.soc
+{
+ position:relative;
+ border-radius: 50%;
+ width: 60px;
+ height: 60px;
+ border: none;
+ top: 20px;
+}
+
+.soc img
+{
+ position:relative;
+ border-radius: 50%;
+ width: 40px;
+ height: 40px;
+}
+
+.foot
+{
+ position: relative;
+ width: 100%;
+ height: 100px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ background-color: rgb(94, 94, 94);
+top: 90rem;
+}
+
+.foot h1
+{
+ position: relative;
+ font-family: 'Nova Square', cursive;
+ font-size: 20px;
+ left: 40%;
+ color: rgb(204, 204, 204);
+ top: 30px;
+ width: 300px;
+
+}
+
+.foot .up
+{
+ position: relative;
+ left: 40%;
+ top: 40px;
+ width: 200px;
+ border: 2px black dotted;
+ background: none;
+}
+
+.foot h2
+{
+ position: relative;
+ left: 85%;
+ font-family: 'Nova Square', cursive;
+ font-size: 15px;
+ 
+}
+
+.foot .por{
+ padding: 2px;
+ background: none;
+ border: 2px black dotted;
+}
+
+.foot button:hover
+{
+transform: scale(1.2);
+}
+.foot h2{
+ width: 200px;
+}
+
+@media only screen and (max-width:900px) {
+
+ .contact{
+
+  position:absolute;
+  top:190rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+  height: 40%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(151, 148, 148);
+  z-index: 15;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+ 
+ }
+ 
+ 
+ .contact h3
+ {
+  position: relative;
+   width: 100px;
+   color: white;
+   left: 30%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+   margin: 10px;
+   border-radius: 20px;
+   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+ }
+ .head2 h1
+{
+ position: absolute;
+ font-family: 'Nova Square', cursive;
+ top: 210px;
+ animation: forh1 3s infinite;
+ transition: all 2 ease-in;
+ width: inherit;
+ z-index: 10;
+ overflow: hidden;
+text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+ font-size: 100px;
+ left: 4.4rem;
+ 
+}
+
+.head2 h2
+{
+ position: absolute;
+ font-family: 'Nova Square', cursive;
+ top: 100px;
+ animation: forh2 1.5s infinite;
+ transition: all 1s ease-in;
+
+ width: inherit;
+ z-index: 1;
+ overflow: hidden;
+text-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+
+
+ font-size: 15vmin;
+ color: gray;
+ left: 8rem;
+ 
+}
+@keyframes forh2
+{
+ 0%
+ {
+  top: 300px;
+ }
+ 50%
+ {
+  top: 310px;
+ }
+ 100%
+ {
+  top: 300px;
+ }
+
+}
+
+
+
+#mobilemenu
+{
+ position: relative;
+
+z-index: 20;
+display: block;
+ height: 50px;
+ border-radius: 50%;
+ top: 0px;
+ left: 0px;
+ font-size: 20px;
+background-color: rgba(0, 0, 0, 0.2);
+ width: 50px;
+}
+
+.overlay
+{
+ position: absolute;
+ top: 0;
+
+background-color: rgba(136, 136, 136, 0.8);
+ left: 0;
+ z-index: 11;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ right: 0;
+ animation-name: mobmenu;
+ animation-duration: 1s;
+ bottom: 0;
+ width: 100%;
+ height: 100%;
+}
+
+
+.header .hbutton
+{
+ position: relative;
+ z-index: 12;
+ width: 300px;
+ padding: 20px;
+ top: 40px;
+ animation-name: mobmenu;
+ animation-duration: 1s;
+
+ left: 10px;
+ font-family: 'Nova Square', cursive;
+
+ float: inline-end;
+ font-size: 25px;
+
+
+}
+
+.modal
+{
+ display: none;
+}
+
+@keyframes mobmenu
+{
+ 0%{
+ top: -860px;
+ }
+ 100%
+ {
+top: 40px;
+ }
+}
+
+
+
+video
+{
+ position: fixed;
+
+ width: 320%;
+ height: 230%;
+ display: flex;
+
+}
+
+.projects
+{
+ display: grid;
+
+ grid-template-columns: auto;
+}
+
+.project
+{
+ position: relative;
+ height: 200px;
+ width: 100%;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+ top: 50rem;
+ background-color: rgb(139, 136, 136);
+
+
+}
+
+
+.project img
+{
+ border-radius: 0px;
+}
+
+.pheader
+{
+ position: relative;
+ top: 47rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border-bottom: 2px red double ;
+ color: white;
+ left: 29%;
+ width: 180px
+}
+
+.pheader1
+{
+ position: relative;
+ top: 50rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border-bottom: 2px red double ;
+ left: 20%;
+ width: 250px
+ ;margin: 20px
+ ;color: white;
+}
+
+.foot
+{
+ position: relative;
+ height: 100px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ background-color: rgb(94, 94, 94);
+top: 90rem;
+}
+
+.foot h1
+{
+ position: relative;
+ font-family: 'Nova Square', cursive;
+ font-size: 20px;
+ left: 30%;
+ color: rgb(204, 204, 204);
+ top: 10px;
+ width: 50%;
+
+}
+
+.foot .up
+{
+ position: relative;
+ left: 20%;
+ top: 20px;
+ width: 30%;
+ border: 2px black dotted;
+ background: none;
+}
+
+.foot h2
+{
+ position: relative;
+ left: 50%;
+ font-family: 'Nova Square', cursive;
+ font-size: 15px;
+ width: 40%;
+ 
+}
+
+.foot .por{
+ padding: 2px;
+ background: none;
+ border: 2px black dotted;
+}
+
+.foot button:hover
+{
+transform: scale(1.2);
+}
+
+
+
+
+}
+
+
+
+

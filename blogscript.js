@@ -159,7 +159,7 @@ function additems(titlefinal1,contentfinal1,datefinal1,authorfinal1)
   blognew.className = 'blog'
   h1.className  = 'blogtitle'
   h1.appendChild(document.createTextNode(`${titlefinal1}`))
-  blognew.appendChild(h1)
+  blognew.prepend(h1)
  
 
 
